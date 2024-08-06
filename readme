@@ -1,0 +1,41 @@
+To configure the envairoment you need to have nodeJS over the v.20 also npm
+
+- Dependencies that we are going to use 
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
+    "trying": "file:",
+    "tsyringe": "^4.8.0"
+
+- Development Dependencies
+
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.1.0",
+    "@types/sequelize": "^4.28.20",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+
+- Config of the tscongig.json
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
